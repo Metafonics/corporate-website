@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteBase /
+
+# API klasörünü rewrite'dan hariç tut
+RewriteCond %{REQUEST_URI} ^/api/ [NC]
+RewriteRule ^(.*)$ - [L]
+
+# Eğer gerçek bir dosya veya dizin varsa, yönlendirme yapma
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Gelen istekleri index.php'ye yönlendir
+RewriteRule ^(.*)$ index.php?do=$1 [L,QSA]
+
+ErrorDocument 404 /404.php

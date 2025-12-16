@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="265" height="48" viewBox="0 0 265 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_15" data-name="Rectangle 15" width="61.716" height="44.121" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_7" data-name="Group 7" transform="translate(-2807 -96)">
+    <text id="Metafonics" transform="translate(2879 132)" fill="#643aff" font-size="34" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Metafonics</tspan></text>
+    <g id="Group_4" data-name="Group 4" transform="translate(2807 98)">
+      <g id="Group_3" data-name="Group 3" clip-path="url(#clip-path)">
+        <path id="Path_1" data-name="Path 1" d="M32.387,44.121H21.532c1.927-.448-1.391-14.734-3.319-14.286L16.44,28.411V41.95s-.592,2.013-2.053,2.171H2.112A2.847,2.847,0,0,1,0,42.009V2.359A2.933,2.933,0,0,1,1.8.07h9.552L27.907,16.629h5.7L50.239,0h8.832a2.522,2.522,0,0,1,2.645,2.24V40.648s.079,2.645-1.855,3.474H49.321s-2.96-.474-3.158-2.053V32.556s-.118-.868-1.618-.513Z" transform="translate(0 0)" fill="#643aff"/>
+        <path id="Path_2" data-name="Path 2" d="M72.792,102.609V96.57c0-.126-.005-.246-.014-.362a3.632,3.632,0,1,0-3.332.526v7.514l6.691,6.691v8.079h3.577v-9.485Z" transform="translate(-55.949 -74.896)" fill="#fff"/>
+        <path id="Path_3" data-name="Path 3" d="M248.43,80.352a3.632,3.632,0,1,0-5.354,3.2h-.1v1.537L234.965,93.1v8.837l.047.047,3.412-3.412V94.306l7.875-7.875V83.659a3.631,3.631,0,0,0,2.132-3.307" transform="translate(-196.269 -64.086)" fill="#fff"/>
+        <path id="Path_4" data-name="Path 4" d="M169.541,20.81a4.243,4.243,0,1,0-6.1,3.817V57.96h3.71V24.627a4.243,4.243,0,0,0,2.388-3.817" transform="translate(-134.53 -13.839)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

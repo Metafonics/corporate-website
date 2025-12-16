@@ -1,0 +1,22 @@
+# Config dizinindeki hassas dosyaları koru
+<FilesMatch "\.(env)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# PHP dosyalarını engelle (test-config.php hariç)
+<FilesMatch "\.php$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# İzin verilen dosyalar
+<Files "README.md">
+    Order allow,deny
+    Allow from all
+</Files>
+
+<Files "test-config.php">
+    Order allow,deny
+    Allow from all
+</Files>
